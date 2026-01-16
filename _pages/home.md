@@ -1,13 +1,14 @@
 ---
-title: "Secure Learning and Control Lab - Home"
+title: "Taheri Lab – Home"
 layout: homelay
-excerpt: "Secure Learning and Control Lab at Uppsala University."
+excerpt: "Taheri Lab – Computational Biology and Network-Based Drug Discovery at KTH."
 sitemap: false
 permalink: /
 ---
 
 ### Vision
-Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries and natural failures. 
+The vision of the **Taheri Lab** is to develop **computational and data-driven methods** that advance our understanding of complex biological systems and enable **predictive modeling for precision medicine**.  
+We aim to bridge **machine learning**, **network science**, and **biomedical data** to support robust and interpretable discoveries in drug development and disease biology.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -22,19 +23,19 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ECC2024_Outside.jpg" height="4" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ECC2024_Outside.jpg" alt="Lab activities" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Workshop_Outside.jpg" height="4" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Workshop_Outside.jpg" alt="Workshop" />
         </div> 
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DISC_2022_USLC.jpg" height="4" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DISC_2022_USLC.jpg" alt="Conference" />
         </div>  
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Angstrom_Outside.jpg" height="4" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Angstrom_Outside.jpg" alt="Campus" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" alt="City" />
         </div>          
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -47,44 +48,62 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
   </a>
 </div>
 
+---
 
 ### Research
-Our research incorporates elements from cybersecurity, control theory, optimization and machine learning, reinforcement learning, game-theory and networked / distributed systems. You can find an overview of some of our research themes at our [Research page](research).
+Our research lies at the intersection of **computational biology**, **machine learning**, and **network science**, with a strong emphasis on **biomedical applications**.
 
+Core research directions include:
+- **Drug–drug and drug–target interaction prediction**
+- **Drug repurposing and polypharmacy analysis**
+- **Driver gene identification and cancer module detection**
+- **Biomedical knowledge graphs and heterogeneous networks**
+- **Graph neural networks and deep learning for biological data**
+
+We develop **scalable, interpretable, and biologically grounded models** that integrate molecular interactions, biological pathways, side effects, and clinical evidence.  
+An overview of our research themes can be found on our [Research page](research).
+
+---
 
 ### Scientific environment
-We are a dynamic research group at the [Department of Information Technology, Uppsala University](http://www.it.uu.se), Sweden. We exchange ideas and work with our colleagues from the several of the Department's research areas, namely [Cybersecurity](https://www.it.uu.se/research/cybersecurity), [AI](https://www.it.uu.se/research/artificial-intelligence), [Data Science](https://www.it.uu.se/research/data-science), and [Control Systems](https://www.it.uu.se/research/control-and-dynamical-systems). We also have ongoing collaborations with our neighboring Department of Electrical Engineering. We are driving local research initiatives related to cybersecurity, through the [Graduate School in Cybersecurity](http://www.it.uu.se/research/research-arenas/security/graduate_school) and the [Cybersecurity Arena](http://www.it.uu.se/research/research-arenas/security).
+The Taheri Lab is based at **KTH Royal Institute of Technology** and is affiliated with **SciLifeLab**, Sweden’s national center for molecular biosciences.  
+The lab is led by **Golnaz Taheri** and operates in a highly interdisciplinary environment spanning **computer science**, **bioinformatics**, and **systems biology**.
 
- **We are looking for driven new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
+We collaborate closely with researchers in:
+- Computational biology and bioinformatics  
+- Machine learning and data science  
+- Network science and graph algorithms  
+- Biomedical and translational research  
 
+Our work benefits from the vibrant research ecosystem at **KTH** and **SciLifeLab**, as well as national and international collaborations.
+
+---
+
+### Join us
+**We are actively looking for motivated PhD students, postdoctoral researchers, and MSc students** with backgrounds in computer science, bioinformatics, data science, or related fields.
+
+If you are interested in:
+- Machine learning for biology
+- Graph-based modeling of biomedical data
+- Drug discovery and precision medicine
+
+please see our [Openings page]({{ site.url }}{{ site.baseurl }}/openings) for current opportunities.
+
+---
 
 ### Our support
-We are grateful for the early-career funding from [Uppsala University](http://www.it.uu.se), the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/) ([Wallenberg Academy Fellow](https://kaw.wallenberg.org/en/andre-teixeira)), the [Swedish Research Council](https://www.vr.se) ([Starting Grant](https://www.vr.se/english/applying-for-funding/calls/2018-03-07-starting-grant-within-natural-and-engineering-sciences.html)), and the [Swedish Foundation for Strategic Research](https://strategiska.se) ([Future Research Leaders Grant](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/)).
+Our research is supported by national and international funding agencies and carried out within the strong academic environment of **KTH Royal Institute of Technology** and **SciLifeLab**.
 
 <div class="row">
 
 <div class="col-sm-3 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/UU_logo_4f125px.png" style="width: 125px">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KTH_logo.png" style="width: 125px">
 </div>
 
 <div class="col-sm-3 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KAW_Logotype_Large.png" style="width: 125px">
-
-</div>
-
-<div class="col-sm-3 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/svart_fyrkant_eng.png" style="width: 120px">
-
-</div>
-
-<div class="col-sm-2 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ssf_gb_rgb-300x247.png" style="width: 124px">
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/scilifelab_logo.png" style="width: 125px">
 </div>
 
 </div>
 
-See our funding and ongoing projects at our [Funding page](funding).
- 
- 
+See our funding sources and ongoing projects on the [Funding page](funding).
