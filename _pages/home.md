@@ -8,7 +8,7 @@ permalink: /
 
 ### Vision
 The vision of the **Taheri Lab** is to develop **computational and data-driven methods** that advance our understanding of complex biological systems and enable **predictive modeling for precision medicine**.  
-We aim to bridge **machine learning**, **network science**, and **biomedical data** to support robust and interpretable discoveries in drug development and disease biology.
+We aim to bridge **machine learning**, **network science**, and **biomedical data** to support robust, interpretable, and biologically grounded discoveries in drug development and disease biology.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
     <!-- Indicators -->
@@ -65,28 +65,28 @@ An overview of our research themes can be found on our [Research page](research)
 ---
 
 ### Scientific environment
-The **Taheri Lab** is based at **SciLifeLab** (Science for Life Laboratory), Stockholm, and is affiliated with **KTH Royal Institute of Technology**.  
-Led by **Golnaz Taheri**, the lab conducts interdisciplinary research at the interface of **computational biology**, **machine learning**, **bioinformatics**, and **network science**.
+The **Taheri Lab** is based at **SciLifeLab** and affiliated with **KTH Royal Institute of Technology**.  
+The lab is led by **Golnaz Taheri**, Assistant Professor at KTH and **DDLS SciLifeLab and Wallenberg Fellow**.
 
-We collaborate closely with researchers in:
-- Computational biology and bioinformatics  
-- Machine learning and data science  
-- Network science and graph algorithms  
-- Biomedical and translational research  
-
-Our work benefits from the vibrant research ecosystem at **KTH** and **SciLifeLab**, as well as national and international collaborations.
+Our research environment is highly interdisciplinary, operating at the interface of **machine learning**, **computational biology**, and **bioinformatics**.  
+We combine **deep learning**, **knowledge graphs**, and **network-based approaches** to analyze large-scale biological data, with applications in **drug interaction prediction**, **drug repurposing**, and **cancer genomics**.
 
 ---
 
-### Join us
-**We are actively looking for motivated PhD students, postdoctoral researchers, and MSc students** with backgrounds in computer science, bioinformatics, data science, or related fields.
+### Join us *(placeholder)*
+> **PLACEHOLDER – recruitment text will be updated once positions are officially announced**
+
+The Taheri Lab plans to recruit:
+- **PhD students** *(placeholder)*
+- **Postdoctoral researchers** *(placeholder)*
+- **Master’s thesis students** *(placeholder)*
 
 If you are interested in:
-- Machine learning for biology
-- Graph-based modeling of biomedical data
-- Drug discovery and precision medicine
+- Machine learning for biology  
+- Graph-based modeling of biomedical data  
+- Drug discovery and precision medicine  
 
-please see our [Openings page]({{ site.url }}{{ site.baseurl }}/openings) for current opportunities.
+please see our [Openings page]({{ site.url }}{{ site.baseurl }}/openings) for future opportunities.
 
 ---
 
@@ -94,15 +94,13 @@ please see our [Openings page]({{ site.url }}{{ site.baseurl }}/openings) for cu
 Our research is supported by national and international funding agencies and carried out within the strong academic environment of **KTH Royal Institute of Technology** and **SciLifeLab**.
 
 <div class="row">
+  <div class="col-sm-3 clearfix vcenter">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KTH_logo.png" style="width: 125px">
+  </div>
 
-<div class="col-sm-3 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KTH_logo.png" style="width: 125px">
-</div>
-
-<div class="col-sm-3 clearfix vcenter">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/scilifelab_logo.png" style="width: 125px">
-</div>
-
+  <div class="col-sm-3 clearfix vcenter">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/scilifelab_logo.png" style="width: 125px">
+  </div>
 </div>
 
 See our funding sources and ongoing projects on the [Funding page](funding).
