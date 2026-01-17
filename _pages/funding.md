@@ -12,11 +12,6 @@ permalink: /funding/
 
 The **Taheri Computational Biology Lab** conducts its research within the strong academic and research environment of **SciLifeLab** and **KTH Royal Institute of Technology**.
 
-Our work is supported through a combination of:
-- Institutional support  
-- Competitive national and international funding  
-- Fellowship and grant programs  
-
 Details on specific funding agencies, grants, and projects will be listed here in the future.
 
 ---
@@ -24,19 +19,14 @@ Details on specific funding agencies, grants, and projects will be listed here i
 ## Planned and Ongoing Support *(placeholder)*
 
 Funding may support research activities in areas including:
-- Drug–drug and drug–target interaction prediction  
-- Drug repurposing and polypharmacy analysis  
-- Cancer genomics and biomarker discovery  
-- Biomedical knowledge graphs and machine learning  
+
 
 ---
 
 ## Acknowledgements *(placeholder)*
 
 We gratefully acknowledge the support of:
-- **SciLifeLab**
-- **KTH Royal Institute of Technology**
-- National and international funding bodies *(to be listed)*
+
 
 <div class="row">
   <div class="col-sm-3 clearfix vcenter">
