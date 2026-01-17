@@ -1,91 +1,55 @@
 ---
-title: "Secure Learning and Control Lab - Publications"
+title: "Taheri Computational Biology Lab – Publications"
 layout: gridlay
-excerpt: "Secure Learning and Control Lab -- Publications."
+excerpt: "Publications and preprints from the Taheri Computational Biology Lab."
 sitemap: false
-years: [2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010]
 permalink: /publications/
 ---
-<!-- _pages/publications.md -->
 
 # Publications
 
-(See also the personal webpage of our group members)
+> **Note:** This page is currently being prepared. A curated list of publications and preprints will be added soon.
 
-## Group Highlights
+For now, you can find publications via:
+- **Golnaz Taheri’s profile** *(placeholder link)*  
+- **Google Scholar** *(placeholder link)*  
+- **ORCID** *(placeholder link)*  
 
-(For a full list of publications, see [below](#list-of-publications), and see also the personal webpage of our group members)
+---
 
+## Group Highlights *(placeholders)*
 
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
-
-{% if publi.long == 1 %}
-<div class="col-sm-12 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="20%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
-</div>
-{% else %}
-<div class="col-sm-12 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="40%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
+  <div class="col-sm-12 clearfix">
+    <div class="well">
+      <pubtit>Placeholder Highlight 1: Paper Header 1 </pubtit>
+      <p><em>Authors: <Author List> </em></p>
+      <p>
+        Short 2–3 sentence summary of the contribution and why it matters.
+        (Replace this placeholder with a real paper/preprint once available.)
+      </p>
+      <p><strong><a href="#">Paper link (placeholder)</a></strong> · <a href="#">Code (placeholder)</a></p>
+    </div>
+  </div>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<p> &nbsp; </p>
-
-
-## List of Publications
-
-### Under Review
-<div class="publications">
-  
-{% bibliography -f uscl_publications -q @*[published={{0}}]* %}
-
+<div class="row">
+  <div class="col-sm-12 clearfix">
+    <div class="well">
+      <pubtit>Placeholder Highlight 2: Paper Header </pubtit>
+      <p><em>Authors: <Author List> </em></p>
+      <p>
+        Short 2–3 sentence summary of the contribution and why it matters.
+        (Replace this placeholder with a real paper/preprint once available.)
+      </p>
+      <p><strong><a href="#">Paper link (placeholder)</a></strong> · <a href="#">Code (placeholder)</a></p>
+    </div>
+  </div>
 </div>
 
-### Published
-<div class="publications">
+---
 
-{%- for y in page.years %}
-  <h3 class="year">{{y}}</h3>
-  {% bibliography -f uscl_publications -q @*[year={{y}}]* %}
-{% endfor %}
+## Full list *(placeholder)*
 
-</div>
+Complete List of papers and preprints:
+...
