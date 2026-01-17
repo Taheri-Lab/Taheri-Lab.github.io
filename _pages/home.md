@@ -65,8 +65,8 @@ An overview of our research themes can be found on our [Research page](research)
 ---
 
 ### Scientific environment
-The Taheri Lab is based at **KTH Royal Institute of Technology** and is affiliated with **SciLifeLab**, Sweden’s national center for molecular biosciences.  
-The lab is led by **Golnaz Taheri** and operates in a highly interdisciplinary environment spanning **computer science**, **bioinformatics**, and **systems biology**.
+The **Taheri Lab** is based at **SciLifeLab** (Science for Life Laboratory), Stockholm, and is affiliated with **KTH Royal Institute of Technology**.  
+Led by **Golnaz Taheri**, the lab conducts interdisciplinary research at the interface of **computational biology**, **machine learning**, **bioinformatics**, and **network science**.
 
 We collaborate closely with researchers in:
 - Computational biology and bioinformatics  
