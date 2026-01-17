@@ -1,103 +1,74 @@
 ---
-title: "Secure Learning and Control Lab - Research"
-layout: gridlay2
-excerpt: "Secure Learning and Control Lab -- Research"
+title: "Taheri Computational Biology Lab – Research"
+layout: research
+excerpt: "Research at the Taheri Computational Biology Lab"
 sitemap: false
-tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /research/
 ---
 
-# Our Research
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/group_logo_medium.png" class="img-responsive" width="15%" style="float: left"/>
+# Research
 
-Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries and natural failures. 
+The **Taheri Computational Biology Lab** develops **machine learning and graph-based methods** for analyzing large-scale biological and biomedical data.  
+Our work focuses on integrating **multi-omics data**, **biomedical knowledge graphs**, and **deep learning** to enable **robust, interpretable, and clinically relevant discoveries**.
 
-To do so, we look into these sytems from a security perspective, under various adversary models. Specifically, we develop techniques to assess the risk (i.e., impact and likelihood) of adversaries and failures, and propose methodologies to design and systematically deploy defense measures to prevent, detect, and mitigate malicious attacks and natural disruptive events. In our research, we combine methodologies from cybersecurity, control theory, optimization and machine learning, game-theory and networked systems.
+At present, our research is organized around **two main directions**.
 
-[//]: # (For a high-level summary of a selection of our results, see [Research Results](research_results).)
+---
 
-Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
+## 1. Computational Frameworks for Enhancing Drug Interaction Prediction and Safety
 
-## Popular science video
-{% include youtubePlayer.html id="k01OGxClLXE?si=Awnl9VCWb7bxCm_F" %}
+Modern drug development increasingly involves **polypharmacy**, where patients receive multiple drugs simultaneously. Predicting **drug–drug interactions (DDIs)** and **drug–target interactions (DTIs)** is therefore critical for both **efficacy** and **patient safety**.
 
+In this research direction, we develop **graph-based deep learning frameworks** that integrate:
 
+- Drug–drug and drug–target interaction networks  
+- Biological pathways and protein–protein interaction networks  
+- Side-effect and phenotypic data  
+- Multi-omics profiles (e.g., transcriptomics, proteomics)
 
+By modeling drugs, targets, and biological entities as nodes in **heterogeneous knowledge graphs**, our methods aim to capture the complex molecular mechanisms underlying **drug synergy**, **adverse drug reactions**, and **off-target effects**.
 
+Beyond interaction prediction, this work supports:
+- **Drug safety assessment**
+- **Pathway-level interpretation of drug effects**
+- **Drug repurposing and repositioning**
+- Identification of **potentially harmful drug combinations**
 
-## Selected research themes
-{% assign paper_show = true %}
+Ultimately, this research contributes to **safer and more reliable drug development pipelines**, with a strong emphasis on interpretability and biological relevance.
 
+---
 
-{% assign number_printed = 0 %}
-{% for theme-item in site.data.research_themes %}
+## 2. Graph-Based Learning for Biomarker Discovery in Hormone-Related Cancers
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if theme-item.highlight == 1 %}
+Hormone-driven cancers exhibit complex molecular heterogeneity driven by interactions across multiple biological layers.  
+This research direction focuses on discovering **novel biomarkers** and **cancer modules** by combining **multi-omics data** with **graph-based machine learning**.
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-{% if theme-item.long == 1 %}
-<div class="col-sm-12 clearfix">
- <div class="well">
- {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
-  {% endif %}
-  <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
-  <p>{{ theme-item.description }}</p>
-  <p>Team members: <em>{{ theme-item.authors }}</em></p>
-  <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
-  <p> {{ theme-item.news2 }}</p>
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
-<div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
-{%- for y in page.tags %}
-{%- if y == theme-item.tag -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}}]* %}
-{% endif %}
-{% endfor %}
-</div></div></div>
- </div>
-</div>
-</div>
-{% else %}
-<div class="col-sm-6 clearfix">
- <div class="well">
- {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
-  {% endif %}
-  <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
-  {{ theme-item.description }}
-  <p>Team members: <em>{{ theme-item.authors }}</em></p>
-  <p class="text-danger"><strong> {{ theme-item.news1 }}</strong></p>
-  <p> {{ theme-item.news2 }}</p>
-  <a data-toggle="collapse" href="#{{theme-item.key}}-bib"  class="btn-bib" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">Selected papers</a>
-<div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
-{%- for y in page.tags %}
-{%- if y == theme-item.tag or y == theme-item.taga -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}} || taga={{y}}]]* %}
-{% endif %}
-{% endfor %}
-</div></div></div>
- </div>
-</div>
-{% assign number_printed = number_printed | plus: 1 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+We integrate:
+- Genomic, transcriptomic, proteomic, and epigenomic data  
+- Gene–gene and protein–protein interaction networks  
+- Regulatory and pathway information  
 
-{% endif %}
-{% endif %}
-{% endfor %}
+Using **graph learning**, **network representation learning**, and **deep learning models**, we aim to identify:
+- **Driver genes** and **cancer-associated modules**
+- Biomarkers for **diagnosis**, **prognosis**, and **treatment response**
+- Potential **therapeutic targets** in hormone-related cancers
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+In addition to predictive performance, a key goal of this work is **biological interpretability**, enabling insights into the molecular mechanisms underlying cancer progression and therapy resistance.
 
-<p> &nbsp; </p>
+This line of research supports the development of **precision and personalized cancer care** through data-driven discovery.
 
+---
 
-[//]: # (**Watermarking schemes for attack detection:**)
+## Methodological Focus
 
-### ... and more.
+Across both research directions, we emphasize:
+- Graph neural networks and representation learning  
+- Knowledge graph construction and fusion  
+- Multi-omics data integration  
+- Interpretable and scalable deep learning models  
+
+Our work sits at the intersection of **machine learning**, **computational biology**, and **systems biology**, with strong connections to real-world biomedical applications.
+
+---
+
+For more details on ongoing projects and results, see the [Publications](publications) and [Team](team) pages.
