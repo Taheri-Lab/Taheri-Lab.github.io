@@ -91,16 +91,7 @@ please see our [Openings page]({{ site.url }}{{ site.baseurl }}/openings) for fu
 ---
 
 ### Our support
-Our research is supported by national and international funding agencies and carried out within the strong academic environment of **KTH Royal Institute of Technology** and **SciLifeLab**.
+Our research is supported by national and international funding agencies and carried out within the strong academic environment of **KTH Royal Institute of Technology** and **SciLifeLab**. ???
 
-<div class="row">
-  <div class="col-sm-3 clearfix vcenter">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KTH_logo.png" style="width: 125px">
-  </div>
-
-  <div class="col-sm-3 clearfix vcenter">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/scilifelab_logo.png" style="width: 125px">
-  </div>
-</div>
 
 See our funding sources and ongoing projects on the [Funding page](funding).
